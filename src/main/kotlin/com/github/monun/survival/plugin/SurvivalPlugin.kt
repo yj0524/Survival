@@ -33,7 +33,6 @@ class SurvivalPlugin : JavaPlugin() {
         val configFile = File(dataFolder, "config.yml")
         SurvivalConfig.load(configFile)
         Whitelist.load(File(dataFolder, "whitelist.txt"))
-        Gosuban.ban(File(dataFolder, "Gosuban.txt"))
 
         setupRecipe()
         setupCommands()
