@@ -210,7 +210,7 @@ class SurvivalPlugin : JavaPlugin() {
     private fun setupWorlds() {
         for (world in server.worlds) {
             world.setGameRule(GameRule.ANNOUNCE_ADVANCEMENTS, false)
-            if (world.name != "world_nether") // 네더일경우 멀리 갔을때 포탈 작용안함
+            if (world.name != "world_nether") // 네더일 경우 멀리 갔을때 포탈 작용 안함
                 world.setGameRule(GameRule.REDUCED_DEBUG_INFO, false)
             world.setGameRule(GameRule.DO_WEATHER_CYCLE, false)
             world.setGameRule(GameRule.SEND_COMMAND_FEEDBACK, true)
@@ -218,6 +218,7 @@ class SurvivalPlugin : JavaPlugin() {
             world.setGameRule(GameRule.SPAWN_RADIUS, 2)
             world.setGameRule(GameRule.DO_IMMEDIATE_RESPAWN, true)
             world.setGameRule(GameRule.DO_FIRE_TICK, false)
+            world.setGameRule(GameRule.REDUCED_DEBUG_INFO, true)
         }
 
         //world, world_nether
