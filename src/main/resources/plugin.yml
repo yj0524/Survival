@@ -1,0 +1,17 @@
+name: $pluginName
+main: $pluginMain
+depend: [ Kotlin, ProtocolLib ]
+api-version: '1.16'
+version: $version
+commands:
+  svl:
+    permission: survival.command
+  sacrifice:
+    permission: survival.sacrifice
+  thinking:
+    permission: survival.thinking
+  evolve:
+    permission: survival.evolve
+permissions:
+  survival.command:
+    default: op
