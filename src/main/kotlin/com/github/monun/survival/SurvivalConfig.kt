@@ -71,7 +71,7 @@ object SurvivalConfig {
     var zombieItemDrop = 0.5
 
     @Config
-    var coordinateOff = 1
+    var coordinate = 1
 
     @Config
     var enableChat = 1
