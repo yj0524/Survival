@@ -139,7 +139,7 @@ abstract class Bio(
                 val scoreboard = Bukkit.getScoreboardManager().mainScoreboard
                 return scoreboard.getTeam("human") ?: scoreboard.registerNewTeam("human").apply {
                     displayName(Component.text("HUMAN"))
-                    color(NamedTextColor.WHITE)
+                    color(NamedTextColor.AQUA)
                     setOption(Team.Option.NAME_TAG_VISIBILITY, Team.OptionStatus.ALWAYS)
                     setCanSeeFriendlyInvisibles(false)
                     setAllowFriendlyFire(true)
