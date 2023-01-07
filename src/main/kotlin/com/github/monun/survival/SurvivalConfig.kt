@@ -71,6 +71,9 @@ object SurvivalConfig {
     var zombieItemDrop = 0.5
 
     @Config
+    var coordinateOff = 1
+
+    @Config
     var defaultHumanList = arrayListOf(
         "yj0524_kr",
     )

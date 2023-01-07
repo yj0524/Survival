@@ -218,7 +218,10 @@ class SurvivalPlugin : JavaPlugin() {
             world.setGameRule(GameRule.SPAWN_RADIUS, 2)
             world.setGameRule(GameRule.DO_IMMEDIATE_RESPAWN, true)
             world.setGameRule(GameRule.DO_FIRE_TICK, false)
-            world.setGameRule(GameRule.REDUCED_DEBUG_INFO, true)
+            if (SurvivalConfig.coordinateOff == 1)
+                world.setGameRule(GameRule.REDUCED_DEBUG_INFO, true)
+            else if (SurvivalConfig.coordinateOff == 0)
+                world.setGameRule(GameRule.REDUCED_DEBUG_INFO, false)
         }
 
         //world, world_nether
