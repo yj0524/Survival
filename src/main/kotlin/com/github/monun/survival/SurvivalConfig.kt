@@ -74,6 +74,9 @@ object SurvivalConfig {
     var coordinateOff = 1
 
     @Config
+    var enableChat = 1
+
+    @Config
     var defaultHumanList = arrayListOf(
         "yj0524_kr",
     )

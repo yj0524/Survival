@@ -57,8 +57,11 @@ class EventListener(
     }
 
     @EventHandler(ignoreCancelled = true)
-    fun onAsyncPlayerChat(event: AsyncChatEvent) {
-        event.isCancelled = false
+    fun onAsyncPlayerChat(event: AsyncChatEvent) { // True : isCancelled 실행 | False : isCancelled 실행 안 함 (넘김)
+        if (SurvivalConfig.enableChat == 0)
+            event.isCancelled = true
+        else if (SurvivalConfig.enableChat == 1)
+            event.isCancelled = false
     }
 
     @EventHandler(ignoreCancelled = true)
