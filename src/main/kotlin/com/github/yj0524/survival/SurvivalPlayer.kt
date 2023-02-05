@@ -1,4 +1,4 @@
-package com.github.monun.survival
+package com.github.yj0524.survival
 
 import com.github.monun.tap.ref.UpstreamReference
 import org.bukkit.configuration.file.YamlConfiguration

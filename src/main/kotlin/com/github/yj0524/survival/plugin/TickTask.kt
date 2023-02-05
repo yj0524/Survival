@@ -1,8 +1,8 @@
-package com.github.monun.survival.plugin
+package com.github.yj0524.survival.plugin
 
-import com.github.monun.survival.Bio
-import com.github.monun.survival.SurvivalConfig
-import com.github.monun.survival.Survival
+import com.github.yj0524.survival.Bio
+import com.github.yj0524.survival.SurvivalConfig
+import com.github.yj0524.survival.Survival
 import com.github.monun.tap.fake.FakeEntityServer
 import java.io.File
 import java.util.logging.Logger

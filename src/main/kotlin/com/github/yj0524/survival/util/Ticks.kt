@@ -1,4 +1,4 @@
-package com.github.monun.survival.util
+package com.github.yj0524.survival.util
 
 object Ticks {
     private val INIT_TIME = System.nanoTime()

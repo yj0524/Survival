@@ -1,6 +1,6 @@
-package com.github.monun.survival
+package com.github.yj0524.survival
 
-import com.github.monun.survival.plugin.SurvivalPlugin
+import com.github.yj0524.survival.plugin.SurvivalPlugin
 import com.github.monun.tap.event.EntityEventManager
 import com.github.monun.tap.fake.FakeEntityServer
 import com.github.monun.tap.ref.UpstreamReference

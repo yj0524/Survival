@@ -1,4 +1,4 @@
-package com.github.monun.survival.plugin
+package com.github.yj0524.survival.plugin
 
 import com.github.monun.kommand.KommandContext
 import com.github.monun.kommand.KommandDispatcherBuilder
@@ -7,9 +7,9 @@ import com.github.monun.kommand.argument.player
 import com.github.monun.kommand.argument.suggestions
 import com.github.monun.kommand.argument.target
 import com.github.monun.kommand.sendFeedback
-import com.github.monun.survival.Bio
-import com.github.monun.survival.SurvivalItem
-import com.github.monun.survival.survival
+import com.github.yj0524.survival.Bio
+import com.github.yj0524.survival.SurvivalItem
+import com.github.yj0524.survival.survival
 import org.bukkit.command.CommandSender
 import org.bukkit.entity.Player
 

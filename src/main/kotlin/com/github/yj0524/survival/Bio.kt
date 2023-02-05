@@ -1,8 +1,8 @@
-package com.github.monun.survival
+package com.github.yj0524.survival
 
 import com.destroystokyo.paper.event.player.PlayerJumpEvent
 import com.destroystokyo.paper.event.player.PlayerStopSpectatingEntityEvent
-import com.github.monun.survival.util.Ticks
+import com.github.yj0524.survival.util.Ticks
 import com.github.monun.tap.effect.playFirework
 import com.github.monun.tap.event.EntityProvider
 import com.github.monun.tap.event.RegisteredEntityListener

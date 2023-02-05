@@ -1,8 +1,8 @@
-package com.github.monun.survival.plugin
+package com.github.yj0524.survival.plugin
 
 import com.destroystokyo.paper.event.entity.PlayerNaturallySpawnCreaturesEvent
 import com.destroystokyo.paper.event.server.PaperServerListPingEvent
-import com.github.monun.survival.*
+import com.github.yj0524.survival.*
 import io.papermc.paper.event.player.AsyncChatEvent
 import net.kyori.adventure.text.Component
 import net.kyori.adventure.text.format.TextColor

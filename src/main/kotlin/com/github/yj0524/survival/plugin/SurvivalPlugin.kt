@@ -1,7 +1,7 @@
-package com.github.monun.survival.plugin
+package com.github.yj0524.survival.plugin
 
 import com.github.monun.kommand.kommand
-import com.github.monun.survival.*
+import com.github.yj0524.survival.*
 import com.github.monun.tap.effect.playFirework
 import com.github.monun.tap.event.EntityEventManager
 import com.github.monun.tap.fake.FakeEntityServer

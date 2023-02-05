@@ -1,4 +1,4 @@
-package com.github.monun.survival
+package com.github.yj0524.survival
 
 import net.kyori.adventure.text.Component.text
 import net.kyori.adventure.text.format.Style
